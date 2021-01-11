@@ -1,5 +1,8 @@
 # Dynamic Factorised Neural Relational Inference
-This repository contains my group's research project for the course "Deep Learning" given at ETH Zurich during the autumn semester 2020. The final paper is in [dfNRI.pdf](dfNRI.pdf).
+This repository contains my group's research project for the course "Deep Learning" given at ETH Zurich during the autumn semester 2020. Our final paper is in [dfNRI.pdf](dfNRI.pdf). It is based on the following papers:
+- Neural Relational Inference for Interacting Systems: https://arxiv.org/abs/1802.04687
+- Factorised Neural Relational Inference for Multi-Interaction Systems: https://arxiv.org/abs/1905.08721
+- Dynamic Neural Relational Inference: https://openaccess.thecvf.com/content_CVPR_2020/html/Graber_Dynamic_Neural_Relational_Inference_CVPR_2020_paper.html
 
 This codebase is largely based on https://github.com/cgraber/cvpr_dNRI. The main changes were made in [dnri.py](dnri/models/dnri.py). Smaller adjustments were made in the following files: [bball_data.py](dnri/datasets/bball_data.py), [bball_experiment.py](dnri/experiments/bball_experiment.py), [motion_experiment.py](dnri/experiments/motion_experiment.py), [model_builder.py](dnri/models/model_builder.py), [evaluate.py](dnri/training/evaluate.py), [flags.py](dnri/utils/flags.py), [misc.py](dnri/utils/misc.py).
 
